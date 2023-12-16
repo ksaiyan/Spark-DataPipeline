@@ -11,7 +11,9 @@ object SparkSessionTest {
       .master("local[1]")
       .appName("SparkByExample")
       .getOrCreate();
-    
+
+
+
     println("First SparkContext:")
     println("APP Name :"+spark.sparkContext.appName);
     println("Deploy Mode :"+spark.sparkContext.deployMode);
