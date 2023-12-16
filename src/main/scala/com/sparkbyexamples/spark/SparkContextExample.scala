@@ -19,6 +19,7 @@ object SparkContextExample extends App{
 
   val sqlContext = new org.apache.spark.sql.SQLContext(spark.sparkContext)
 
+  println("My first commit")
   println("First SparkContext:")
   println("APP Name :"+spark.sparkContext.appName);
   println("Deploy Mode :"+spark.sparkContext.deployMode);
