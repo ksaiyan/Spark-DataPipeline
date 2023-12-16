@@ -1,5 +1,6 @@
 package com.sparkbyexamples.spark.rdd.xml
 
+
 import com.databricks.spark.xml.XmlInputFormat
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.io.{LongWritable, Text}
